@@ -1,0 +1,31 @@
+import SideImg from "../assets/heroSection.webp";
+import { StyledOutlineButton, StyledPrimaryButton } from "./styled-components";
+function HeroSection() {
+  return (
+    <div className="md:py-6 sm:py-2 w-12">
+      <div className="grid col-10 m-auto gap-12">
+        <section className="hero col-12 md:col-6">
+          <h1 className="text-6xl space-grotesk">Advance Your Tech Career.</h1>
+          <p className="text-xl text-muted-foreground">
+            Deep Root provides career-focused training in software development
+            and quality assurance. Our expert-led courses are designed to equip
+            you with the practical skills needed to excel in the tech industry.
+          </p>
+          <div className="flex gap-2">
+            <StyledPrimaryButton
+              label="Explore Courses"
+              icon="pi pi-check"
+              iconPos="right"
+            />
+            <StyledOutlineButton>Get in touch</StyledOutlineButton>
+          </div>
+        </section>
+        <section className="col-12 md:col-6">
+          <img src={SideImg} style={{ width: "100%" }} />
+        </section>
+      </div>
+    </div>
+  );
+}
+
+export default HeroSection;

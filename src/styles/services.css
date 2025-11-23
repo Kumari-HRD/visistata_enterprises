@@ -1,0 +1,20 @@
+.icon-background {
+  background-color: hsl(var(--primary) / 0.1);
+  width: 80px !important;
+  height: 80px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-icon-background {
+  background-color: hsl(var(--primary) / 0.1);
+  width: 48px !important;
+  height: 48px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card :hover {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0/0.1), 0 4px 6px -4px rgb(0 0 0/0.1);
+}

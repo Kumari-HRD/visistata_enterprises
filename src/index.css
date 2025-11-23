@@ -1,0 +1,40 @@
+@import "primeflex/primeflex.css";
+/* ====== Global Styles ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-color: hsl(var(--border));
+}
+
+body {
+  /* background-color: #f8f9fa; */
+  color: #333;
+  line-height: 1.6;
+  background-color: hsl(var(--background));
+}
+
+.space-grotesk {
+  font-family: "Space Grotesk", sans-serif;
+}
+.text-muted-foreground {
+  color: hsl(var(--muted-foreground)) !important;
+}
+.radius {
+  border-radius: var(--radius);
+}
+.text-accent {
+  color: hsl(var(--accent));
+}
+.text-primary {
+  color: hsl(var(--primary));
+}
+.tracking-tight {
+  letter-spacing: -0.025em;
+}
+a {
+  text-decoration: none;
+}
+a:-webkit-any-link {
+  color: white;
+}
