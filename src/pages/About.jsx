@@ -1,4 +1,4 @@
-import SideImg from "../assets/heroSection.webp";
+import SideImg from "../assets/heroSection.png";
 import Footer from "../components/Footer";
 import "../styles/services.css";
 import { StyledColoredDiv } from "../components/styled-components";
@@ -6,7 +6,7 @@ function About() {
   return (
     <>
       <StyledColoredDiv className="py-6 md:py-6 w-12">
-        <div className="grid col-10 m-auto">
+        <div className="grid grid-nogutter col-10 m-auto">
           <section className="col-12 md:col-6 pr-4">
             <img src={SideImg} style={{ width: "100%" }} />
           </section>

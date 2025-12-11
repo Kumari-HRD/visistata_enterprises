@@ -45,7 +45,7 @@ export const StyledMenubar = styled(Menubar)(({ theme }) => ({
     border: "1px solid hsl(var(--border))",
   },
   "& .p-menuitem-content": {
-    paddingLeft: "10px",
+    marginLeft: "10px",
   },
   // Mobile styles
   "@media screen and (max-width: 960px)": {
@@ -88,6 +88,11 @@ export const StyledColoredContact = styled("div")(({ theme }) => ({
 }));
 
 export const StyledFeatureCards = styled(Card)(({ theme }) => ({
+  ".p-card-header img": {
+    maxHeight: "192px",
+    minHeight: "192px",
+    objectFit: "cover",
+  },
   ".p-card-title": {
     padding: "24px",
     fontSize: "1.25rem",
@@ -97,7 +102,6 @@ export const StyledFeatureCards = styled(Card)(({ theme }) => ({
   ".p-card-subtitle": {
     padding: "24px",
     paddingTop: "0px",
-
     fontSize: ".875rem",
     color: "hsl(var(--muted-foreground))",
   },

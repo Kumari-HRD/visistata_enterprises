@@ -4,45 +4,40 @@ import { Button } from "primereact/button";
 
 const coursesConfig = [
   {
-    title: "Javascript for Beginners",
+    title: "JavaScript Essentials",
     description:
-      "Master the fundamentals of JavaScript, the language of the web.",
+      "Kickstart your web development journey by mastering JavaScript, the backbone of modern websites.",
     tagline: "Web Development",
-    bannerImage: "path/to/image1.jpg",
+    bannerImage: "src/assets/javascript.png",
     path: "/course-1",
   },
   {
-    title: "MERN Full Stack Development",
+    title: "MERN Stack Mastery",
     description:
-      "Master the MERN stack (MongoDB, Express, React, Node.js) to build modern web applications.",
-    tagline: "MERN Full Stack",
-    bannerImage: "path/to/image1.jpg",
-    path: "/course-1",
+      "Become a full-stack web developer by building dynamic apps with MongoDB, Express, React, and Node.js.",
+    tagline: "Full Stack Development",
+    bannerImage: "src/assets/mern.png",
+    path: "/course-2",
   },
   {
-    title: "QA Fundamentals & Theory",
+    title: "Python Programming",
     description:
-      "Learn the core principles of software quality assurance and testing.",
-    tagline: "Web Development",
-    bannerImage: "path/to/image1.jpg",
-    path: "/course-1",
+      "Unlock the power of Python to build applications, automate tasks, and solve real-world problems.",
+    tagline: "Python Development",
+    bannerImage: "src/assets/python.png",
+    path: "/course-3",
   },
   {
-    title: "QA Fundamentals & Theory",
+    title: "QA Fundamentals & Testing",
     description:
-      "Learn the core principles of software quality assurance and testing.",
-    tagline: "Web Development",
-    bannerImage: "path/to/image1.jpg",
-    path: "/course-1",
+      "Learn essential QA concepts and testing techniques to ensure high-quality software delivery.",
+    tagline: "Software Testing",
+    bannerImage: "src/assets/testing.png",
+    path: "/course-4",
   },
 ];
 
-const header = (imageUrl) => (
-  <img
-    alt="Card Banner"
-    src={"https://primefaces.org/cdn/primereact/images/usercard.png"}
-  />
-);
+const header = (imageUrl) => <img alt="Card Banner" src={imageUrl} />;
 
 const footer = (
   <>
@@ -70,7 +65,7 @@ const FeaturedCourses = () => {
         </p>
         <div className="grid col-10 m-auto">
           {coursesConfig.map((course) => (
-            <div key={course.id} className="lg:col-3 md:col-6 sm:col-12">
+            <div key={course.id} className="lg:col-3 md:col-6 sm:col-12 mt-3 ">
               <StyledFeatureCards
                 title={course.title}
                 subTitle={course.description}

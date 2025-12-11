@@ -1,4 +1,4 @@
-import SideImg from "../assets/heroSection.webp";
+import SideImg from "../assets/heroSection.png";
 import { StyledOutlineButton, StyledPrimaryButton } from "./styled-components";
 function HeroSection() {
   return (
