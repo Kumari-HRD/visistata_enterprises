@@ -4,7 +4,7 @@ import { StyledOutlineButton, StyledPrimaryButton } from "./styled-components";
 function HeroSection() {
   const navigate = useNavigate();
   return (
-    <div className="md:py-6 sm:py-2 w-12">
+    <div className="md:py-0 sm:py-2 w-12">
       <div className="grid col-10 m-auto gap-12">
         <section className="hero col-12 md:col-6">
           <h1 className="text-6xl space-grotesk">Advance Your Tech Career.</h1>
