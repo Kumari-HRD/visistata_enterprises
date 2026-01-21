@@ -15,8 +15,8 @@ function About() {
               About Visistata
             </h1>
             <p className="mb-3 text-muted-foreground">
-               Visistata Software Training & Development Services was founded
-              with a simple mission: to bridge the gap between aspiring IT
+               Visistata Enterprises was founded with a simple mission: 
+               To bridge the gap between aspiring IT
               professionals and their dream careers. We saw a need for
               high-quality, practical, and affordable online education that
               directly addresses the skills employers are looking for.
