@@ -35,7 +35,12 @@ function Contact() {
         timestamp: new Date(),
       });
       alert("Form submitted successfully!");
-      setFormData({ fullname: "", email: "", subject: "", message: "" });
+      setFormData({
+        fullname: "",
+        email: "",
+        subject: "",
+        message: "",
+      });
     } catch (error) {
       console.error("Error adding document: ", error);
       alert("Error submitting form. Try again.");
@@ -48,7 +53,7 @@ function Contact() {
     <>
       <div className="py-4 px-4">
         <div className="mb-6">
-          <h1 className="text-6xl space-grotesk text-center card">
+          <h1 className="text-6xl space-grotesk text-center">
             Get in Touch
           </h1>
           <p className="mb-3 text-muted-foreground text-center">
@@ -58,7 +63,7 @@ function Contact() {
 
         <div style={{ maxWidth: "896px", margin: "auto" }}>
           <StyledColoredDiv className="grid grid-nogutter radius border-1">
-            {/* CONTACT INFO */}
+            {/* CONTACT INFORMATION */}
             <div className="p-4 col-12 md:col-6">
               <div className="mb-4">
                 <h3 className="text-2xl space-grotesk tracking-tight">
@@ -71,7 +76,7 @@ function Contact() {
 
               <div>
                 {/* EMAIL */}
-                <div className="flex gap-3">
+                <div className="flex gap-3 mb-4">
                   <div className="contactIcon-background border-circle">
                     📧
                   </div>
@@ -86,9 +91,9 @@ function Contact() {
                   </div>
                 </div>
 
-                {/* PHONE (COMMENTED COMPLETELY) */}
+                {/* ================= PHONE (COMMENTED FOR FUTURE USE) ================= */}
                 {/*
-                <div className="flex gap-3 mt-4 mb-4">
+                <div className="flex gap-3 mb-4">
                   <div className="contactIcon-background border-circle">
                     📞
                   </div>
@@ -103,8 +108,9 @@ function Contact() {
                   </div>
                 </div>
                 */}
+                {/* ================= END PHONE ================= */}
 
-                {/* ADDRESS */}
+                {/* OFFICE ADDRESS */}
                 <div className="flex gap-3">
                   <div className="contactIcon-background border-circle">
                     📍
@@ -157,7 +163,7 @@ function Contact() {
                   <label className="font-semibold">Subject</label>
                   <InputText
                     name="subject"
-                    placeholder="Course Inquiry"
+                    placeholder="Course Inquiry regarding Web Development"
                     value={formData.subject}
                     onChange={handleChange}
                   />
@@ -168,6 +174,7 @@ function Contact() {
                   <InputTextarea
                     name="message"
                     rows={5}
+                    placeholder="Tell us how we can help you"
                     value={formData.message}
                     onChange={handleChange}
                   />
@@ -176,6 +183,8 @@ function Contact() {
                 <StyledPrimaryButton
                   className="w-full mt-3"
                   label={loading ? "Submitting..." : "Submit"}
+                  icon="pi pi-arrow-right"
+                  iconPos="right"
                 />
               </form>
             </div>
