@@ -223,7 +223,7 @@ function Contact() {
                     id="fullname"
                     name="fullname"
                     aria-describedby="fullname-help"
-                    placeholder="Rahul Kumar"
+                    placeholder="Shiva Kumar"
                     value={formData.fullname}
                     onChange={handleChange}
                   />
