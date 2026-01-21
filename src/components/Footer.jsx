@@ -22,8 +22,8 @@ const Footer = () => {
             Visistata
           </span>
           <p className="text-sm	mt-3  text-muted-foreground">
-            Code Root offers expert-led courses in software development and
-            testing to help you land your next role in tech.
+            Visistata offers expert-led courses in software development
+            to help you land your next role in tech.
           </p>
         </div>
         <div className="md:col-2 mx-auto sm:col-5 col-5">
