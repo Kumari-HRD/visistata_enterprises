@@ -195,7 +195,8 @@ function Contact() {
                       href="mailto:visistata@hotmail.com"
                       className="text-muted-foreground"
                     >
-                      No.3152, 2nd Main, 9th Cross, GayathriNagar, Bangalore-21
+                      #63, Muddinapalya Main Road, Muneshwara Layout, Gidadakonenahalli, Bengaluru, 
+                      Karnataka 560091
                     </a>
                   </div>
                 </div>
