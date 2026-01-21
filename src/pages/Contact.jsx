@@ -137,7 +137,7 @@ function Contact() {
                   <div>
                     <p class="font-semibold">Email</p>
                     <a
-                      href="mailto:hello@drcoding.com"
+                      href="mailto:visistata@hotmail.com"
                       className="text-muted-foreground"
                     >
                       visistata@hotmail.com
@@ -192,7 +192,7 @@ function Contact() {
                   <div>
                     <p class="font-semibold">Office Address</p>
                     <a
-                      href="mailto:hello@drcoding.com"
+                      href="mailto:visistata@hotmail.com"
                       className="text-muted-foreground"
                     >
                       No.3152, 2nd Main, 9th Cross, GayathriNagar, Bangalore-21
