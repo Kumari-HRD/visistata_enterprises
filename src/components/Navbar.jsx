@@ -2,7 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import "../styles/navbar.css"; // include the .css extension
 
 import { StyledMenubar } from "./styled-components";
-import logo1 from "../assets/logo1.png";
+import logo1 from "../assets/visistata_logo.png";
 const Navbar = () => {
   const navigate = useNavigate();
 
