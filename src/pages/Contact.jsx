@@ -140,7 +140,7 @@ function Contact() {
                       href="mailto:hello@drcoding.com"
                       className="text-muted-foreground"
                     >
-                      deeprootedlearnings@gmail.com
+                      visistata@hotmail.com
                     </a>
                   </div>
                 </div>
