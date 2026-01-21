@@ -19,7 +19,7 @@ const Footer = () => {
               navigate("/");
             }}
           >
-            Deep Root
+            Visistata
           </span>
           <p className="text-sm	mt-3  text-muted-foreground">
             Code Root offers expert-led courses in software development and
