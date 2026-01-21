@@ -236,7 +236,7 @@ function Contact() {
                     id="email"
                     name="email"
                     aria-describedby="email-help"
-                    placeholder="rahul@gmail.com"
+                    placeholder="shiva@gmail.com"
                     value={formData.email}
                     onChange={handleChange}
                   />
