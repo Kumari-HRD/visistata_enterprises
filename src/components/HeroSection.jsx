@@ -9,7 +9,7 @@ function HeroSection() {
         <section className="hero col-12 md:col-6">
           <h1 className="text-6xl space-grotesk">Advance Your Tech Career.</h1>
           <p className="text-xl text-muted-foreground">
-            Deep Root provides career-focused training in software development
+             Visistata provides career-focused training in software development
             and quality assurance. Our expert-led courses are designed to equip
             you with the practical skills needed to excel in the tech industry.
           </p>
