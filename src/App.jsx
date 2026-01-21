@@ -49,7 +49,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <WhatsAppButton />
+      {/* <WhatsAppButton /> */}
       <Suspense fallback={<Loader />}>
         <Routes>
           <Route path="/" element={<Home />} />
